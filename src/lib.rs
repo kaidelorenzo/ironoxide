@@ -155,7 +155,7 @@
 // include generated proto code as a proto module
 include!(concat!(env!("OUT_DIR"), "/transform.rs"));
 
-mod crypto {
+pub mod crypto {
     pub mod aes;
     pub mod transform;
 }
